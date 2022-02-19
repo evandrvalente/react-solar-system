@@ -11,4 +11,5 @@ class PlanetCard extends React.Component {
     );
   }
 }
+
 export default PlanetCard;
