@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+}
+
+h2 {
+  width: 100%;
+}
+
+.solar-system-container,
+.missions-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+  
+.card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
