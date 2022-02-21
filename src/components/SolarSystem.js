@@ -14,6 +14,7 @@ class SolarSystem extends Component {
               key={ planet.name }
               planetName={ planet.name }
               planetImage={ planet.image }
+              planetWidth={ planet.size }
             />
           ))
         }
