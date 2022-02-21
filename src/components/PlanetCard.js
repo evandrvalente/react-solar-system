@@ -3,12 +3,14 @@ import PropTypes from 'prop-types';
 
 class PlanetCard extends React.Component {
   render() {
-    const { planetName, planetImage, planetWidth } = this.props;
+    const { planetName, planetImage, planetProportion } = this.props;
+    const standardSize = 250;
+    const proportionalSize = standardSize * planetProportion;
     return (
-      <div data-testid="planet-card" className="card-content">
+      <div data-testid="planet-card" className="planet-div card-content">
         <p data-testid="planet-name">{planetName}</p>
         <img
-          width={ `${planetWidth}px` }
+          width={ `${proportionalSize}px` }
           src={ planetImage }
           alt={ `Planeta ${planetName}` }
         />
@@ -20,7 +22,7 @@ class PlanetCard extends React.Component {
 PlanetCard.propTypes = {
   planetName: PropTypes.string.isRequired,
   planetImage: PropTypes.string.isRequired,
-  planetWidth: PropTypes.number.isRequired,
+  planetProportion: PropTypes.number.isRequired,
 };
 
 export default PlanetCard;

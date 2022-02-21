@@ -27,8 +27,21 @@ h2 {
   flex-flow: row wrap;
 }
   
+.solar-system-container {
+  align-items: center;
+}
+
+.missions-container {
+  padding: 20px;
+}
+
 .card-content {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.planet-div{
+  align-content: center;
+  align-items: center;
 }
