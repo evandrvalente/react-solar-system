@@ -1,6 +1,6 @@
 # Boas vindas ao repositório do projeto Sistema Solar!
 
-# Contexto
+## Objetivo do projeto
 Este é o meu primeiro projeto utilizando React. Trata-se de uma página para exibir um modelo do sistema solar!
 Ao utilizar essa aplicação uma pessoa usuária deverá ser capaz de:
 
@@ -34,7 +34,7 @@ npm install
   
 ---
 
-# Habilidades
+## Habilidades
 Neste projeto, apliquei aprendizados básicos em React como:
 
   * Utilizar JSX no React
